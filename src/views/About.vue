@@ -1,5 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="container">
+        <v-alert
+      color="#2A3B4D"
+      dark
+      icon="mdi-firework"
+      dense
+    >
+      Sistema de altas, modificaciones y bajas de usuarios. <strong>V 1.0.0</strong>
+    </v-alert>
   </div>
 </template>

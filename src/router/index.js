@@ -1,14 +1,27 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Index from '../components/HelloWorld.vue'
+import ListUser from '@/components/ListUser'
+import UpUser from '@/components/UpUser'
+import NotFound from '@/components/NotFound'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'ListUser',
+    component: ListUser
+  },
+  {
+    path: '/alta_usuario',
+    name: 'UpUser',
+    component: UpUser
+  },
+  {
+    path: '*',
+    name: 'NoFound',
+    component: NotFound
   },
   {
     path: '/about',
