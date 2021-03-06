@@ -2,6 +2,7 @@
   <div>
     <h1>Lista de usuarios</h1>
     <h4>Este es una modificacion commit  </h4>
+    <h5>Esto es una modificacion de la rama User2</h5>
   </div>
 </template>
 
